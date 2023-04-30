@@ -5,7 +5,7 @@
 
 ## How It Works
 ### Online Version
-* When the 'Play' button is pressed, the Python code written in the editor (provided by <a href="https://ace.c9.io/#nav=about">Ace</a>) is transpiled to JavaScript (using <a href="https://github.com/mauriciopoppe/greuler">Brython</a>).
+* When the 'Play' button is pressed, the Python code written in the editor (provided by <a href="https://microsoft.github.io/monaco-editor/">Monarco</a>) is transpiled to JavaScript (using <a href="https://github.com/mauriciopoppe/greuler">Brython</a>).
 * The code is then executed instantaneously, and all API calls are added to a queue, ready to be executed sequentially.
 * The API calls trigger visual animations (using a modified version of <a href="https://github.com/maurizzzio/greuler">Greuler</a>, built on <a href="https://github.com/d3/d3">D3</a> and <a href="https://github.com/tgdwyer/WebCola">WebCola</a>).
 
